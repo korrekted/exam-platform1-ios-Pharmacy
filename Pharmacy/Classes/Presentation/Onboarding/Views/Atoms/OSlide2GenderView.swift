@@ -47,10 +47,10 @@ private extension OSlide2GenderView {
 private extension OSlide2GenderView {
     func makeConstraints() {
         NSLayoutConstraint.activate([
-            imageView.leadingAnchor.constraint(equalTo: leadingAnchor),
-            imageView.trailingAnchor.constraint(equalTo: trailingAnchor),
-            imageView.topAnchor.constraint(equalTo: topAnchor),
-            imageView.bottomAnchor.constraint(equalTo: bottomAnchor)
+            imageView.centerXAnchor.constraint(equalTo: centerXAnchor),
+            imageView.topAnchor.constraint(equalTo: topAnchor, constant: 13.scale),
+            imageView.widthAnchor.constraint(equalToConstant: 65.scale),
+            imageView.heightAnchor.constraint(equalToConstant: 96.scale)
         ])
         
         NSLayoutConstraint.activate([

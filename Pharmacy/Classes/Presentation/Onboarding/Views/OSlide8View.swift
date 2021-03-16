@@ -65,9 +65,9 @@ private extension OSlide8View {
         ])
         
         NSLayoutConstraint.activate([
-            imageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: ScreenSize.isIphoneXFamily ? 0 : 32.scale),
-            imageView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: ScreenSize.isIphoneXFamily ? 0 : -32.scale),
-            imageView.heightAnchor.constraint(equalToConstant: ScreenSize.isIphoneXFamily ? 301.scale : 250.scale),
+            imageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 54.scale),
+            imageView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -54.scale),
+            imageView.heightAnchor.constraint(equalToConstant: ScreenSize.isIphoneXFamily ? 284.scale : 235.scale),
             imageView.topAnchor.constraint(equalTo: topAnchor, constant: ScreenSize.isIphoneXFamily ? 245.scale : 180.scale)
         ])
         
@@ -105,6 +105,7 @@ private extension OSlide8View {
     
     func makeImageView() -> UIImageView {
         let view = UIImageView()
+        view.contentMode = .scaleAspectFit
         view.clipsToBounds = true
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
