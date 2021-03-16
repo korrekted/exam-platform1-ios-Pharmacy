@@ -55,7 +55,6 @@ extension OnboardingViewController {
     }
 }
 
-
 // MARK: API
 extension OnboardingViewController {
     static func wasViewed() -> Bool {
