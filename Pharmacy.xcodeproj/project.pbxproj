@@ -256,6 +256,9 @@
 		9618524326A1E059004B362B /* MediumRateWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618522526A1DE22004B362B /* MediumRateWidget.swift */; };
 		9618524526A1E662004B362B /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = 9618524426A1E662004B362B /* Onboarding.Chart.json */; };
 		969675FA2657B7690070E7F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 969675F92657B7690070E7F7 /* GoogleService-Info.plist */; };
+		96AD34F6274D85980098D472 /* SetSelectCourseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AD34F5274D85980098D472 /* SetSelectCourseRequest.swift */; };
+		96AD34F8274D85AC0098D472 /* GetSelectedCourseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AD34F7274D85AC0098D472 /* GetSelectedCourseResponse.swift */; };
+		96AD34FB274D85F10098D472 /* GetSelectedCourseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AD34FA274D85F10098D472 /* GetSelectedCourseRequest.swift */; };
 		96DDD94325FE68020045FDD3 /* SF-Pro-Rounded-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 96DDD94025FE68020045FDD3 /* SF-Pro-Rounded-Semibold.otf */; };
 		96DDD94425FE68020045FDD3 /* SF-Pro-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 96DDD94125FE68020045FDD3 /* SF-Pro-Rounded-Regular.otf */; };
 		96DDD94525FE68020045FDD3 /* SF-Pro-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 96DDD94225FE68020045FDD3 /* SF-Pro-Rounded-Bold.otf */; };
@@ -538,6 +541,9 @@
 		9640277525FE13BE006A1CBF /* Pharmacy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pharmacy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9640278625FE13C2006A1CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		969675F92657B7690070E7F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		96AD34F5274D85980098D472 /* SetSelectCourseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetSelectCourseRequest.swift; sourceTree = "<group>"; };
+		96AD34F7274D85AC0098D472 /* GetSelectedCourseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSelectedCourseResponse.swift; sourceTree = "<group>"; };
+		96AD34FA274D85F10098D472 /* GetSelectedCourseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSelectedCourseRequest.swift; sourceTree = "<group>"; };
 		96DDD93B25FE1AD60045FDD3 /* Pharmacy-Thermo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pharmacy-Thermo-Bridging-Header.h"; sourceTree = "<group>"; };
 		96DDD94025FE68020045FDD3 /* SF-Pro-Rounded-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Semibold.otf"; sourceTree = "<group>"; };
 		96DDD94125FE68020045FDD3 /* SF-Pro-Rounded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Regular.otf"; sourceTree = "<group>"; };
@@ -847,6 +853,8 @@
 		9618504826A1D966004B362B /* Requests */ = {
 			isa = PBXGroup;
 			children = (
+				96AD34F9274D85E50098D472 /* GetSelectedCourse */,
+				96AD34F4274D85840098D472 /* SetSelectCourse */,
 				9618504926A1D966004B362B /* GetCourcesRequest.swift */,
 				9618504A26A1D966004B362B /* GetReferences */,
 				9618504D26A1D966004B362B /* GetCourcesResponseMapper.swift */,
@@ -1557,6 +1565,23 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		96AD34F4274D85840098D472 /* SetSelectCourse */ = {
+			isa = PBXGroup;
+			children = (
+				96AD34F5274D85980098D472 /* SetSelectCourseRequest.swift */,
+			);
+			path = SetSelectCourse;
+			sourceTree = "<group>";
+		};
+		96AD34F9274D85E50098D472 /* GetSelectedCourse */ = {
+			isa = PBXGroup;
+			children = (
+				96AD34FA274D85F10098D472 /* GetSelectedCourseRequest.swift */,
+				96AD34F7274D85AC0098D472 /* GetSelectedCourseResponse.swift */,
+			);
+			path = GetSelectedCourse;
+			sourceTree = "<group>";
+		};
 		96DDD93D25FE67DD0045FDD3 /* Strings */ = {
 			isa = PBXGroup;
 			children = (
@@ -1882,6 +1907,7 @@
 				9618518A26A1D967004B362B /* SettingsTableSection.swift in Sources */,
 				961851B426A1D967004B362B /* AnswerView.swift in Sources */,
 				961851A826A1D967004B362B /* QuestionViewCell.swift in Sources */,
+				96AD34FB274D85F10098D472 /* GetSelectedCourseRequest.swift in Sources */,
 				9618518526A1D967004B362B /* STLinksCell.swift in Sources */,
 				9618519126A1D967004B362B /* SCTitleCell.swift in Sources */,
 				9618519026A1D967004B362B /* StudyViewController.swift in Sources */,
@@ -1930,6 +1956,7 @@
 				9618516326A1D967004B362B /* Reference.swift in Sources */,
 				961851B726A1D967004B362B /* PaygateViewModel.swift in Sources */,
 				961851E126A1D967004B362B /* CourseProgressView.swift in Sources */,
+				96AD34F8274D85AC0098D472 /* GetSelectedCourseResponse.swift in Sources */,
 				961851EF26A1D967004B362B /* WelcomeSlideIndicatorView.swift in Sources */,
 				9618519A26A1D967004B362B /* StudyView.swift in Sources */,
 				9618518E26A1D967004B362B /* SplashView.swift in Sources */,
@@ -2006,6 +2033,7 @@
 				961851AC26A1D967004B362B /* TestType.swift in Sources */,
 				961851FB26A1D967004B362B /* OSlideWhenStudyView.swift in Sources */,
 				961851D326A1D967004B362B /* CoursesCollectionView.swift in Sources */,
+				96AD34F6274D85980098D472 /* SetSelectCourseRequest.swift in Sources */,
 				961851E726A1D967004B362B /* OProgressView.swift in Sources */,
 				961851A526A1D967004B362B /* ExplanationCell.swift in Sources */,
 				9618516126A1D967004B362B /* QuestionManagerCore.swift in Sources */,
@@ -2054,7 +2082,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = 2W4U9UWRKZ;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -2063,7 +2091,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.0.7;
+				MARKETING_VERSION = 2.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.pharmacy.stats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Pharmacy Stats Widgets Development";
@@ -2081,7 +2109,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = 2W4U9UWRKZ;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -2090,7 +2118,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.0.7;
+				MARKETING_VERSION = 2.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.pharmacy.stats;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Pharmacy Stats Widgets AppStore";
@@ -2226,7 +2254,7 @@
 				CODE_SIGN_ENTITLEMENTS = Pharmacy/Pharmacy.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 16;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 2W4U9UWRKZ;
 				INFOPLIST_FILE = "$(SRCROOT)/Pharmacy/Resource/Info.plist";
@@ -2235,7 +2263,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.7;
+				MARKETING_VERSION = 2.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.pharmacy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Pharmacy Development";
@@ -2255,7 +2283,7 @@
 				CODE_SIGN_ENTITLEMENTS = Pharmacy/Pharmacy.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 16;
 				DEVELOPMENT_TEAM = 2W4U9UWRKZ;
 				INFOPLIST_FILE = "$(SRCROOT)/Pharmacy/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -2263,7 +2291,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.7;
+				MARKETING_VERSION = 2.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.pharmacy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Pharmacy AppStore";

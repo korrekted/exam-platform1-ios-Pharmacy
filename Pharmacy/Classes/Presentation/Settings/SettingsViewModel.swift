@@ -66,7 +66,7 @@ private extension SettingsViewModel {
     
     func course() -> Driver<Course> {
         coursesManager
-            .rxGetSelectedCourse()
+            .retrieveSelectedCourse()
             .compactMap { $0 }
             .asDriver(onErrorDriveWith: .empty())
     }
