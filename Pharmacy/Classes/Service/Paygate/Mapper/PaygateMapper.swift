@@ -45,7 +45,7 @@ private extension PaygateMapper {
         let optionsJSONArray = (main["options"] as? [[String: Any]]) ?? []
         let options = optionsJSONArray.enumerated().compactMap { map(option: $1, productsPrices: productsPrices, index: $0) }
         
-        return PaygateMainOffer(options: options, questionCount: questionCount)
+        return PaygateMainOffer(questionCount: questionCount, options: options)
     }
     
     static func map(option: [String: Any], productsPrices: [ProductPrice]?, index: Int) -> PaygateOption? {
