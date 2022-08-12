@@ -8,6 +8,7 @@
 import UIKit
 import RxCocoa
 import Firebase
+import RushSDK
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -27,6 +28,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         
         FirebaseApp.configure()
+        TestFinishObserver.shared.startObserve()
         
         addDelegates()
         
@@ -76,21 +78,21 @@ extension AppDelegate: SDKPurchaseMediatorDelegate {
         
         let session = Session(response: response)
         
-        SessionManagerCore().store(session: session)
+        SessionManager().store(session: session)
     }
 }
 
 // MARK: SDKUserManagerMediatorDelegate
 extension AppDelegate: SDKUserManagerMediatorDelegate {
     func userManagerMediatorDidReceivedFeatureApp(userToken: String) {
-        SessionManagerCore().set(userToken: userToken)
+        SessionManager().set(userToken: userToken)
     }
 }
 
 // MARK: Private
 private extension AppDelegate {
     func runProvider(on view: UIView) {
-        let session = SessionManagerCore().getSession()
+        let session = SessionManager().getSession()
         
         let userId: String?
         if let cachedUserId = session?.userId {
