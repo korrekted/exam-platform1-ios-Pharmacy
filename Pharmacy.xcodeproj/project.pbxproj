@@ -31,6 +31,7 @@
 		96DDD94A25FE681F0045FDD3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96DDD94C25FE681F0045FDD3 /* Localizable.strings */; };
 		96DDD95025FF85970045FDD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DDD94F25FF85970045FDD3 /* LaunchScreen.storyboard */; };
 		96DDDB3925FF8C250045FDD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DDDB3825FF8C250045FDD3 /* Assets.xcassets */; };
+		DE1D023C28CB32B6003AC1FD /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE1D023B28CB32B6003AC1FD /* Onboarding.Chart.json */; };
 		DE30463B28A6427000E0AEA4 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30447628A6426F00E0AEA4 /* UIColorExtension.swift */; };
 		DE30463C28A6427000E0AEA4 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30447728A6426F00E0AEA4 /* Collection+Extension.swift */; };
 		DE30463D28A6427000E0AEA4 /* Observable+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30447828A6426F00E0AEA4 /* Observable+Utils.swift */; };
@@ -333,7 +334,6 @@
 		DE30476628A6427000E0AEA4 /* OImproveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30461D28A6427000E0AEA4 /* OImproveCell.swift */; };
 		DE30476728A6427000E0AEA4 /* ReferencesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30461F28A6427000E0AEA4 /* ReferencesTableCell.swift */; };
 		DE30476828A6427000E0AEA4 /* ReferencesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30462028A6427000E0AEA4 /* ReferencesTableView.swift */; };
-		DE30476928A6427000E0AEA4 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE30462228A6427000E0AEA4 /* Onboarding.Chart.json */; };
 		DE30476A28A6427000E0AEA4 /* OWhenStudyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30462328A6427000E0AEA4 /* OWhenStudyCell.swift */; };
 		DE30476B28A6427000E0AEA4 /* WelcomeSlide1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30462528A6427000E0AEA4 /* WelcomeSlide1View.swift */; };
 		DE30476C28A6427000E0AEA4 /* WelcomeSlideIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE30462628A6427000E0AEA4 /* WelcomeSlideIndicatorView.swift */; };
@@ -419,6 +419,7 @@
 		96DDD94F25FF85970045FDD3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96DDDB3825FF8C250045FDD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		980C1A4671E1715D559F8718 /* Pods_Pharmacy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pharmacy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE1D023B28CB32B6003AC1FD /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DE30447628A6426F00E0AEA4 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		DE30447728A6426F00E0AEA4 /* Collection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
 		DE30447828A6426F00E0AEA4 /* Observable+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Utils.swift"; sourceTree = "<group>"; };
@@ -721,7 +722,6 @@
 		DE30461D28A6427000E0AEA4 /* OImproveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OImproveCell.swift; sourceTree = "<group>"; };
 		DE30461F28A6427000E0AEA4 /* ReferencesTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableCell.swift; sourceTree = "<group>"; };
 		DE30462028A6427000E0AEA4 /* ReferencesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableView.swift; sourceTree = "<group>"; };
-		DE30462228A6427000E0AEA4 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DE30462328A6427000E0AEA4 /* OWhenStudyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWhenStudyCell.swift; sourceTree = "<group>"; };
 		DE30462528A6427000E0AEA4 /* WelcomeSlide1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlide1View.swift; sourceTree = "<group>"; };
 		DE30462628A6427000E0AEA4 /* WelcomeSlideIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlideIndicatorView.swift; sourceTree = "<group>"; };
@@ -2262,7 +2262,7 @@
 		DE30462128A6427000E0AEA4 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				DE30462228A6427000E0AEA4 /* Onboarding.Chart.json */,
+				DE1D023B28CB32B6003AC1FD /* Onboarding.Chart.json */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -2371,12 +2371,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE30478628A642BF00E0AEA4 /* SF-Pro-Rounded-Black.otf in Resources */,
-				DE30476928A6427000E0AEA4 /* Onboarding.Chart.json in Resources */,
 				969675FA2657B7690070E7F7 /* GoogleService-Info.plist in Resources */,
 				96DDD94A25FE681F0045FDD3 /* Localizable.strings in Resources */,
 				96DDD94425FE68020045FDD3 /* SF-Pro-Rounded-Regular.otf in Resources */,
 				96DDD94325FE68020045FDD3 /* SF-Pro-Rounded-Semibold.otf in Resources */,
 				96DDDB3925FF8C250045FDD3 /* Assets.xcassets in Resources */,
+				DE1D023C28CB32B6003AC1FD /* Onboarding.Chart.json in Resources */,
 				96DDD95025FF85970045FDD3 /* LaunchScreen.storyboard in Resources */,
 				96DDD94525FE68020045FDD3 /* SF-Pro-Rounded-Bold.otf in Resources */,
 			);
@@ -2830,7 +2830,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 27;
+				CURRENT_PROJECT_VERSION = 28;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -2839,7 +2839,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 3.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.pharmacy.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Pharmacy Widget Prod";
@@ -2857,7 +2857,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 27;
+				CURRENT_PROJECT_VERSION = 28;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -2866,7 +2866,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 3.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.pharmacy.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Pharmacy Widget Prod";
@@ -3002,7 +3002,7 @@
 				CODE_SIGN_ENTITLEMENTS = Pharmacy/Pharmacy.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 27;
+				CURRENT_PROJECT_VERSION = 28;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/Pharmacy/Resource/Info.plist";
@@ -3011,7 +3011,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 3.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.pharmacy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Pharmacy Prod";
@@ -3031,7 +3031,7 @@
 				CODE_SIGN_ENTITLEMENTS = Pharmacy/Pharmacy.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 27;
+				CURRENT_PROJECT_VERSION = 28;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/Pharmacy/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -3039,7 +3039,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.1.0;
+				MARKETING_VERSION = 3.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.pharmacy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "Pharmacy Prod";
